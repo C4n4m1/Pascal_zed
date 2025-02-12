@@ -1,0 +1,12 @@
+name = "Pascal"
+grammar = "grammars.pascal"
+path_suffixes = ["pas", "pp"]
+line_comments = ["// "]
+brackets = [
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "begin", end = "end;", close = true, newline = true, not_in = [
+        "comment",
+        "string",
+    ] },
+    { start = "{", end = "}", close = true, newline = false },
+]

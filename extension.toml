@@ -1,0 +1,16 @@
+id = "pascal"
+name = "Pascal Support"
+version = "0.1.0"
+schema_version = 1
+authors = ["Crédo HOUNTONDJI <your.email@example.com>"]
+description = "Adds Pascal syntax highlighting and basic language configuration to Zed."
+repository = "https://github.com/C4n4m1/pascal-extension"
+
+[grammars.pascal]
+repository = "https://github.com/Isopod/tree-sitter-pascal"
+rev = "d0ebabefaea9ac3f6fc3004cf08cd121b66da9e4"
+
+
+# [language_servers.my-language]
+# name = ""
+# languages = ["My Language"]

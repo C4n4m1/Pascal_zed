@@ -2,9 +2,9 @@ id = "pascal"
 name = "Pascal Support"
 version = "0.1.0"
 schema_version = 1
-authors = ["Crédo HOUNTONDJI <your.email@example.com>"]
+authors = ["Crédo HOUNTONDJI hcanami@gmail.com"]
 description = "Adds Pascal syntax highlighting and basic language configuration to Zed."
-repository = "https://github.com/C4n4m1/pascal-extension"
+repository = "https://github.com/C4n4m1/Pascal_zed"
 
 [grammars.pascal]
 repository = "https://github.com/Isopod/tree-sitter-pascal"

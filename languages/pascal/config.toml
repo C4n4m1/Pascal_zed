@@ -1,7 +1,6 @@
-[language]
 name = "Pascal"
 extensions = [".pas", ".pp"]
-grammar = "grammars.pascal"
+grammar = "pascal"
 path_suffixes = ["pas", "pp"]
 line_comments = ["// "]
 brackets = [
